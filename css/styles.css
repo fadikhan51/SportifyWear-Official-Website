@@ -12,8 +12,13 @@
     padding-top: .5em;
     padding-bottom: 0.5em;
     display: inline;
-    margin: .7em;
+    margin: .7em .7em .7em 0em;
+    
 }
 .icon {
     margin: .5em;
+}
+
+#right-nav-items {
+    padding-left: 0em;
 }
