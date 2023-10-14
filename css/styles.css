@@ -1,0 +1,19 @@
+.navigation {
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+.nav-input {
+    border: none;
+}
+.search {
+    border: 1px solid gray;
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: 0.5em;
+    display: inline;
+    margin: .7em;
+}
+.icon {
+    margin: .5em;
+}
