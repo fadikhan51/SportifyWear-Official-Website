@@ -1,9 +1,20 @@
 .navigation {
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
+.logo {
+    height: 100px;
+    width: 100px;
+    transition: .2s;
+}
+
+.color {
+    color: #212529;
+}
+
 .nav-input {
     border: none;
 }
+
 .search {
     border: 1px solid gray;
     border-radius: 2em;
@@ -15,10 +26,36 @@
     margin: .7em .7em .7em 0em;
     
 }
+
+#hide-search-icon {
+    display: none;
+}
+
 .icon {
     margin: .5em;
 }
 
 #right-nav-items {
     padding-left: 0em;
+}
+
+@media screen and (max-width : 992px){
+    nav .navbar-brand {
+        margin-right: 0;
+    }
+    #hide-search-icon {
+        display: inline-block;
+    }
+    .icon {
+        scale: 0.8
+    }
+    .search {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #user, #heart {
+        display: none;
+    }
 }
