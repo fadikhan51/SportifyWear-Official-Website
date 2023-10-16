@@ -39,6 +39,10 @@
     padding-left: 0em;
 }
 
+.carousel-inner img {
+    height: 40rem;
+}
+
 @media screen and (max-width : 992px){
     nav .navbar-brand {
         margin-right: 0;
@@ -52,10 +56,16 @@
     .search {
         display: none;
     }
+    .carousel-inner img {
+        height: 30rem;
+    }
 }
 
 @media screen and (max-width : 768px) {
     #user, #heart {
         display: none;
+    }
+    .carousel-inner img {
+        height: 20rem;
     }
 }
