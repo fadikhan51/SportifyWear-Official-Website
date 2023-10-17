@@ -1,5 +1,5 @@
 # SportifyWear-Official-Website
-<h2>A responsive and user-friendly website for selling gym outfits and trousers, including shirts and shorts.</h2>
+<h2>A responsive and user-friendly website for selling gym outfits and trousers, including shirts and shorts..</h2>
 <br>
 <h3>Features:</h3>
 <br>
