@@ -1,6 +1,7 @@
 .navigation {
-    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
 }
+
 .logo {
     height: 100px;
     width: 100px;
@@ -16,7 +17,7 @@
     background: transparent;
 }
 
-.nav-input:focus{
+.nav-input:focus {
     outline: none;
 }
 
@@ -29,7 +30,7 @@
     padding-bottom: 0.5em;
     display: inline;
     margin: .7em .7em .7em 0em;
-    
+
 }
 
 #hide-search-icon {
@@ -48,29 +49,124 @@
     height: 40rem;
 }
 
-@media screen and (max-width : 992px){
+footer {
+    color: white;
+    background-color: #111111;
+}
+
+.footer-top {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-heading {
+    flex: 2;
+}
+
+.send-mail-input-box {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+
+.info-row {
+    color: white;
+    text-decoration: none;
+}
+
+.info-row:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.small-footer-top {
+    display: none;
+}
+
+@media screen and (max-width : 992px) {
     nav .navbar-brand {
         margin-right: 0;
     }
+
     #hide-search-icon {
         display: inline-block;
     }
+
     .icon {
         scale: 0.8
     }
+
     .search {
         display: none;
     }
+
     .carousel-inner img {
         height: 30rem;
+    }
+
+    .footer-top {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .footer-box {
+        width: 45%;
     }
 }
 
 @media screen and (max-width : 768px) {
-    #user, #heart {
+
+    #user,
+    #heart {
         display: none;
     }
+
     .carousel-inner img {
         height: 20rem;
+    }
+
+    div.small-footer-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.small-footer-top button {
+        text-align: start;
+        color: white;
+    }
+
+    div.small-footer-top button:hover {
+        color: gray;
+    }
+
+    div.small-footer-top button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    div.footer-top {
+        display: none;
+    }
+
+    .sm-ft-opt {
+        display: flex;
+        justify-content: space-between
     }
 }
