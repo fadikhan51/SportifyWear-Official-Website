@@ -99,6 +99,24 @@ footer {
 .small-footer-top {
     display: none;
 }
+/* --------Services Section----------- */
+.services{
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.service-box{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 30%;
+}
+.service-logo{
+    scale: 1.5;
+    margin: 1.5em;
+}
 
 @media screen and (max-width : 992px) {
     nav .navbar-brand {
@@ -168,5 +186,13 @@ footer {
     .sm-ft-opt {
         display: flex;
         justify-content: space-between
+    }
+
+    .services{
+        flex-direction: column;
+    }
+    .service-logo{
+        scale: 1.2;
+        margin: 1.5em;
     }
 }
