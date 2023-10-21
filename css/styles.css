@@ -13,6 +13,11 @@
 
 .nav-input {
     border: none;
+    background: transparent;
+}
+
+.nav-input:focus{
+    outline: none;
 }
 
 .search {

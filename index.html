@@ -14,7 +14,47 @@
     <link rel="icon" href="assets/favicon.png">
   <title>Sportify Wear</title>
   <style>
-    
+
+      footer{
+        color: white;
+        background-color: #111111;
+      }
+      .footer-top{
+        padding-top: 5em;
+        padding-bottom: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2em;
+      }
+      .footer-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      .footer-box{
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-section-heading{
+        flex: 2;
+      }
+      .send-mail-input-box{
+        display: inline-block;
+        border: 1px solid gray;
+        border-radius: 1px;
+      }
+      .info-row{
+        color: white;
+        text-decoration: none;
+      }
+      .info-row:hover{
+        text-decoration: none;
+        color: gray;
+      }
   </style>
 </head>
 
@@ -88,6 +128,73 @@
       <span class="sr-only">Next</span>
     </a>
   </section>
+
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-top px-2 ">
+
+      <section class="footer-box" id="get-in-touch">
+        <a href="#"><img src="assets/white-logo.png"
+          alt="Sportify Wear"></a>
+        <p>
+          <i class="fa-solid fa-location-dot"></i> 
+          <span class="m-auto">Plot no D1/3 Sector 21 K.I.A Karachi</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <span class="m-auto">info@gmail.com</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <span class="m-auto">0333-3333113</span>
+        </p>
+        <p><span class="m-auto">
+          <i class="p-2 fa-brands fa-facebook"></i>
+          <i class="p-2 fa-brands fa-instagram"></i>
+          <i class="p-2 fa-brands fa-tiktok"></i>
+        </span></p>
+      </section>
+
+      <section class="footer-box" id="footer-categories">
+        <p class="font-weight-bold footer-section-heading">CATEGORIES</p>
+        <p><a href = "#" class="m-auto info-row">MEN WEAR</a></p>
+        <p><a href = "#" class="m-auto info-row">WOMEN WEAR</a></p>
+        <p><a href = "#" class="m-auto info-row">SPORTIFY PRO</a></p>
+        <p><a href = "#" class="m-auto info-row">SALE</a></p>
+      </section>
+
+      <section class="footer-box" id="footer-categories">
+        <p class="font-weight-bold footer-section-heading">CUSTOMER CARE</p>
+        <p><a href = "#" class="m-auto info-row">MY ACCOUNT</a></p>
+        <p><a href = "#" class="m-auto info-row">CONTACT US</a></p>
+        <p><a href = "#" class="m-auto info-row">MY WISHLIST</a></p>
+        <p><a href = "#" class="m-auto info-row">FAQs</a></p>
+        <p><a href = "#" class="m-auto info-row">RETURN AND EXCHANGE</a></p>
+        <p><a href = "#" class="m-auto info-row">PRIVACY POLICY</a></p>
+        <p><a href = "#" class="m-auto info-row">TERMS AND CONDITIONS</a></p>
+      </section>
+
+      <section class="footer-box" id="footer-categories">
+        <p class="font-weight-bold footer-section-heading">NEWSLETTER SIGNUP</p>
+        <p><span class="m-auto">Subscribe to our newsletter and get 10% off on your first purchase.</span></p>
+        <div>
+          <span class="send-mail-input-box p-2">
+          <input class="nav-input" type="text" placeholder="Your Email Address">
+          <i class=" btn fa-xl fa-solid fa-paper-plane" style="color: white;"></i>
+        </span>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer-bottom py-4">
+      <div>Copyright &copy; 2023 <span style="color: gray;">SPORTIFY WEAR</span> all rights reserved. Developed by Beast inc Pvt Lmt</div>
+      <div>
+        <i class="fa-brands fa-cc-visa p-1 fa-2xl"></i>
+        <i class="fa-brands fa-cc-mastercard p-1 fa-2xl"></i>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- FontAwesome JavaScript -->
