@@ -208,7 +208,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     height: 95vh;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-bottom: 5%;
 }
 
@@ -218,7 +218,7 @@ footer {
     justify-content: center;
     padding-top: 5%;
     /* padding-bottom: 5%; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .top-categories p{
     font-family:Georgia, 'Times New Roman', Times, serif ;
@@ -229,7 +229,7 @@ footer {
     flex-direction: row;
     height: 67vh;
     margin-top: 5%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 /* Styling first category pic template */
@@ -267,7 +267,7 @@ footer {
     width: 86%;
     margin-left: 7%;
     height: 46%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     margin-bottom: 7%;
     align-self: flex-start;
 }
@@ -276,7 +276,7 @@ footer {
     width: 86%;
     margin-left: 0%;
     margin-right: 7%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 46%;
     align-self: flex-end;
 }
@@ -345,9 +345,8 @@ footer {
 /* Media Queries Section */
 
 /* Men Top Button */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .categories .btn-1 {
-        /* Adjust the button's position for smaller screens */
         width: 120px;
         font-size: 14px;
         top: 50%;
@@ -358,7 +357,6 @@ footer {
 }
   @media screen and (min-width: 768px) and (max-width: 992px) {
     .categories .btn-1 {
-        /* Adjust the button's position for smaller screens */
         top: 50%;
         left: 50%;
         transform: translate(-50%, 220%);
@@ -367,32 +365,29 @@ footer {
 }
 @media screen and (min-width: 992px) {
     .categories .btn-1 {
-        /* Adjust the button's position for smaller screens */
         top: 50%;
         left: 50%;
         transform: translate(-50%, 300%);
         z-index: 2;
     }
-}
+} */
 
 /* Men Bottom Button */
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .categories .btn-2 {
-        /* Adjust the button's position for smaller screens */
         top: 50%;
         left: 50%;
         transform: translate(-35%, -150%);
         z-index: 2;
     }
-}
-@media screen and (min-width: 768px) and (max-width: 992px) {
+} */
+/* @media screen and (min-width: 768px) and (max-width: 992px) {
     .categories .btn-2 {
-        /* Adjust the button's position for smaller screens */
         top: 50%;
         left: 50%;
         transform: translate(-40%, -130%);
     }
-}
+} */
 
 
   
