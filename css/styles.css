@@ -242,6 +242,50 @@ input[type="range"]::-moz-range-thumb{
     content: "+ ";
 }
 
+
+/* .products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-box{
+    flex: 1 1 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px
+}
+
+
+.product-box .image img{
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.product-box{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image{
+    height: 80%;
+}
+.image img{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width:992px) and (max-width : 1200px) {
+    .product-box {
+        height: 30em;
+    }
+}
 @media screen and (max-width : 992px) {
     nav .navbar-brand {
         margin-right: 0;
@@ -369,16 +413,16 @@ input[type="range"]::-moz-range-thumb{
 }
   
   
-.row {
+.row1 {
     position: relative;
 }
 
-.row img {
+.row1 img {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.2); /* Set the border color and transparency */
 }
 
-.row img:hover {
+.row1 img:hover {
     transform: scale(1.08);
     transition: transform 0.5s ease-in-out, border 0.1s ease-in-out;
     border: 2px solid rgba(0, 0, 0, 0.4); /* Adjust the border size and color on hover */
@@ -386,12 +430,12 @@ input[type="range"]::-moz-range-thumb{
 
 
 
-/* Styling of Buttons in the top categories section */
-.row.position-relative{
+ /* Styling of Buttons in the top categories section  */
+.row1 .position-relative{
     position: relative;
 }
 
-.row .img-overlay-btn {
+.row1 .img-overlay-btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -402,7 +446,7 @@ input[type="range"]::-moz-range-thumb{
     cursor: pointer;
 }
 
-.row .img-overlay-btn2 {
+.row1 .img-overlay-btn2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -412,7 +456,7 @@ input[type="range"]::-moz-range-thumb{
     border: none;
     cursor: pointer;
 }
-.row .img-overlay-btn3 {
+.row1 .img-overlay-btn3 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -423,20 +467,20 @@ input[type="range"]::-moz-range-thumb{
     cursor: pointer;
 }
 
-.row .img-overlay-btn:hover {
+.row1 .img-overlay-btn:hover {
     background-color: black; 
     color: white; 
 }
-.row .img-overlay-btn2:hover {
+.row1 .img-overlay-btn2:hover {
     background-color: black; 
     color: white; 
 }
-.row .img-overlay-btn3:hover {
+.row1 .img-overlay-btn3:hover {
     background-color: black; 
     color: white; 
 }
 
-  
+
 
 
 
