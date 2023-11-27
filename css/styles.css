@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    color: white;
+    background-color: gray;
+}
+
+
 .navigation {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
 }
@@ -119,14 +135,7 @@ footer {
 }
 
 /* Multi Range Slider css */
-/* Import Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 
 
 .price-input{
@@ -210,6 +219,27 @@ input[type="range"]::-moz-range-thumb{
   pointer-events: auto;
   -moz-appearance: none;
   box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+
+.product-hr{
+    background: #222222;
+    color: #222222;
+    height: 1px;
+    width: 3em;
+    margin-top: .2em;
+}
+
+
+.flexCheckDefault{
+    accent-color: gray;
+}
+
+.product-hr + ul {
+    list-style: none;
+}
+
+.product-hr + ul li strong::before {
+    content: "+ ";
 }
 
 @media screen and (max-width : 992px) {
