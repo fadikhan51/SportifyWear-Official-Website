@@ -115,6 +115,9 @@ footer {
 .small-footer-top {
     display: none;
 }
+.nav-input{
+    color: white;
+}
 /* --------Services Section----------- */
 .services{
     padding: 5em;
